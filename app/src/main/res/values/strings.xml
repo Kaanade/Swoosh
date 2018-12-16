@@ -11,4 +11,8 @@
     <string name="welcome_subtitle">ON GOING ALL OUT</string>
     <string name="welcome_description">Fin a team in your city, and dominate the league</string>
     <string name="get_started">Get Started</string>
+    <string name="levelString">TextView</string>
+    <string name="beginner">BEGINNER</string>
+    <string name="baller">BALLER</string>
+    <string name="finish">FINISH</string>
 </resources>
