@@ -43,22 +43,25 @@
         <ToggleButton
                 android:text="@string/men"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton3" android:textOff="@string/men"
+                android:layout_height="wrap_content" android:id="@+id/coedLeagueBtn" android:textOff="@string/men"
                 android:textOn="@string/men" android:fontFamily="@font/montserrat"
-                android:background="@drawable/swoosh_toggle" android:textColor="@color/colorAccent"/>
+                android:background="@drawable/swoosh_toggle" android:textColor="@color/colorAccent"
+                android:onClick="onCoedClicked"/>
         <ToggleButton
                 android:text="@string/women"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton2" android:layout_marginBottom="16dp"
+                android:layout_height="wrap_content" android:id="@+id/womenLeagueBtn" android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp" android:textOff="@string/women" android:textOn="@string/women"
                 android:background="@drawable/swoosh_toggle" android:textColor="@color/colorAccent"
-                android:fontFamily="@font/montserrat"/>
+                android:fontFamily="@font/montserrat" android:onClick="onWomenClicked"/>
         <ToggleButton
                 android:text="@string/co_ed"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton"
-                android:textOff="@string/co_ed" android:textOn="@string/co_ed" android:background="@drawable/swoosh_toggle"
-                android:textColor="@color/colorAccent" android:fontFamily="@font/montserrat"/>
+                android:layout_height="wrap_content" android:id="@+id/menLeagueBtn"
+                android:textOff="@string/co_ed" android:textOn="@string/co_ed"
+                android:background="@drawable/swoosh_toggle"
+                android:textColor="@color/colorAccent" android:fontFamily="@font/montserrat"
+                android:onClick="onMenClicked"/>
     </LinearLayout>
     <Button
             android:text="@string/next"
