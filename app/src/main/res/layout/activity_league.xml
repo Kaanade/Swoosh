@@ -43,10 +43,10 @@
         <ToggleButton
                 android:text="@string/men"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/coedLeagueBtn" android:textOff="@string/men"
+                android:layout_height="wrap_content" android:id="@+id/menLeagueBtn" android:textOff="@string/men"
                 android:textOn="@string/men" android:fontFamily="@font/montserrat"
                 android:background="@drawable/swoosh_toggle" android:textColor="@color/colorAccent"
-                android:onClick="onCoedClicked"/>
+                android:onClick="onMenClicked"/>
         <ToggleButton
                 android:text="@string/women"
                 android:layout_width="match_parent"
@@ -57,11 +57,11 @@
         <ToggleButton
                 android:text="@string/co_ed"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/menLeagueBtn"
+                android:layout_height="wrap_content" android:id="@+id/coedLeagueBtn"
                 android:textOff="@string/co_ed" android:textOn="@string/co_ed"
                 android:background="@drawable/swoosh_toggle"
                 android:textColor="@color/colorAccent" android:fontFamily="@font/montserrat"
-                android:onClick="onMenClicked"/>
+                android:onClick="onCoedClicked"/>
     </LinearLayout>
     <Button
             android:text="@string/next"
